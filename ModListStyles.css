@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+body{
+  font-family: 'Open sans', serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+}
+
+h1 {
+  text-decoration: underline;
+  font-variant: small-caps;
+  font-size: 2.5em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+text-indent: 1.5em;
+font-size: 1.5em;
+}
+
+h4 {
+  text-indent: 2em;
+  font-size: 1.25em;
+}
+
+ul ul li::before {
+  content: '↳'!important;
+}
+
+ul {
+  margin-left: 1em;
+}
+
+details details {
+  text-indent: 1.5em;
+}
+
+details details ul {
+  margin-left: 2.5em;
+}
+
+summary {
+  display: inline;
+  text-indent: 1em;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+details details summary {
+  text-indent: 1.5em;
+  font-size: 1.25em;
+  font-weight: 500;
+}
+
+code {
+  font-family: monospace;
+  background-color: #eeeeff;
+  border: 0.5px solid gray;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  display: block;
+  margin-left: 1em;
+}
+ol ol li {
+  list-style-type: lower-alpha;
+}
+
+.checked {
+  color: #00dd22;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -2em;
+}
+.checked::before {
+  content: '✔';
+  color: #00dd22;
+  padding-right: 0.5em;
+}
+
+.added {
+  color: #0022dd;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -2em;
+}
+.added::before {
+  content: '+';
+  color: #0022dd;
+  padding-right: 0.5em;
+}
+
+.removed {
+  color: #555;
+  text-decoration: line-through;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -2em;
+}
+.removed::before {
+  content: '✘';
+  color: #555;
+  padding-right: 0.5em;
+}
+
+.new {
+  font-weight: 700;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 1em;
+  text-indent: -2em;
+}
+.new::before {
+  content: '✨';
+  font-weight: 700;
+  padding-right: 0.5em;
+}
+
+.checked.new::before {
+  content: '✔✨';
+  font-weight: 700;
+  padding-right: 0.5em;
+}
+
+.new.added::before {
+  content: '+✨';
+  font-weight: 700;
+  padding-right: 0.5em;
+}
+
+.new.removed::before {
+  content: '✘✨';
+  font-weight: 700;
+  padding-right: 0.5em;
+}
+
+
+.changelog_div {
+  font-size: 0.75em;
+}

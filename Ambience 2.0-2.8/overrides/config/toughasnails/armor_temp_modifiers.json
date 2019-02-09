@@ -1,0 +1,29 @@
+[
+  {
+    "names": [
+      "toughasnails:jelled_slime_helmet",
+      "toughasnails:jelled_slime_chestplate",
+      "toughasnails:jelled_slime_leggings",
+      "toughasnails:jelled_slime_boots"
+    ],
+    "modifier": -3
+  },
+  {
+    "names": [
+      "toughasnails:wool_helmet",
+      "toughasnails:wool_chestplate",
+      "toughasnails:wool_leggings",
+      "toughasnails:wool_boots"
+    ],
+    "modifier": 2
+  },
+  {
+    "names": [
+      "minecraft:iron_helmet",
+      "minecraft:iron_chestplate",
+      "minecraft:iron_leggings",
+      "minecraft:iron_boots"
+    ],
+    "modifier": 3
+  }
+]
