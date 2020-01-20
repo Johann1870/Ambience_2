@@ -146,3 +146,13 @@ ol ol li {
 .changelog_div {
   font-size: 0.75em;
 }
+
+#modlistTable {
+  text-align: center;
+}
+
+#modlistHeader {
+  font-weight: 700;
+  background-color: #113388;
+  color: #fff;
+}
